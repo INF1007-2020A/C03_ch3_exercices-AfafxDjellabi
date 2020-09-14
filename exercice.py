@@ -6,13 +6,12 @@ import math
 
 
 def average(a: float, b: float, c: float) -> float:
-    return 0.0
-moyenne= (a+b+c)/3
-return moyenne
+    return (a+b+c)/3
 
 
 def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:
-    return 0.0
+    return (angle_degs + (angle_mins + angle_secs/60)/60) * math.pi/180
+
 
 
 def to_degrees(angle_rads: float) -> tuple:
