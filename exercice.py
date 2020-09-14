@@ -27,6 +27,12 @@ def to_farenheit(temperature: float) -> float:
 
 def main() -> None:
     print(f"Moyenne des nombres 2, 4, 6: {average(2.1, 4.3, 6.5)}")
+    a=2.1
+    b=4.3
+    c=6.5
+    result=(a+b+c)/3
+    print(result)
+    
 
     print(f"Conversion de 100 degres, 2 minutes et 45 secondes en radians: {to_radians(180, 2, 45)}")
     
